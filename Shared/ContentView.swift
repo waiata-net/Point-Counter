@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
-    @Binding var document: Point_CounterDocument
+    @Binding var document: GameDocument
 
     var body: some View {
-        TextEditor(text: $document.text)
+        Text("Hello")
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(document: .constant(Point_CounterDocument()))
+        ContentView(document: .constant(GameDocument()))
     }
 }

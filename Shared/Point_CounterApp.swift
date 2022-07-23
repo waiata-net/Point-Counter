@@ -10,7 +10,7 @@ import SwiftUI
 @main
 struct Point_CounterApp: App {
     var body: some Scene {
-        DocumentGroup(newDocument: Point_CounterDocument()) { file in
+        DocumentGroup(newDocument: GameDocument()) { file in
             ContentView(document: file.$document)
         }
     }
