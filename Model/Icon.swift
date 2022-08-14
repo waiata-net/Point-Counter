@@ -8,5 +8,5 @@
 import Foundation
 
 struct Icon: Codable {
-    var url: URL
+    var url: URL?
 }

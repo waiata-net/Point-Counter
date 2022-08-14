@@ -15,10 +15,14 @@ extension UTType {
 }
 
 struct GameDocument: FileDocument {
-    
-    var game: Game = Game()
 
     static var readableContentTypes: [UTType] { [.exampleText] }
+    
+    var game: Game
+    
+    init() {
+        game = Game()
+    }
 
     init(configuration: ReadConfiguration) throws {
         guard let data = configuration.file.regularFileContents,

@@ -15,4 +15,5 @@ class Game: Codable {
     var scoreA: Int
     var scoreB: Int
     
+    
 }
