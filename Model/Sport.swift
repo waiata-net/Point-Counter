@@ -9,8 +9,8 @@ import Foundation
 
 struct Sport: Codable {
     
-    var name: String
-    var icon: Icon
-    var targetPoints: Int
+    var name: String = "Sport"
+    var icon: Icon?
+    var targetPoints: Int = 1
     
 }
