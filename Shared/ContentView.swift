@@ -11,7 +11,7 @@ struct ContentView: View {
     @Binding var document: GameDocument
 
     var body: some View {
-        Text("Hello")
+        GameView(game: document.game)
     }
 }
 
