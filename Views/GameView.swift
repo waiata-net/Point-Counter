@@ -18,11 +18,13 @@ struct GameView: View {
                 Text("\(game.scoreA)")
                 ScoreButtons(score: $game.scoreA)
             }
+            .padding()
             VStack {
                 Text(game.teamB.name)
                 Text("\(game.scoreB)")
                 ScoreButtons(score: $game.scoreB)
             }
+            .padding()
         }
     }
 }

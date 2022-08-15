@@ -25,6 +25,8 @@ struct ScoreButtons: View {
         }
     }
 }
+
+
 struct ScoreButtons_Previews: PreviewProvider {
     @State static var score = 0
     static var previews: some View {

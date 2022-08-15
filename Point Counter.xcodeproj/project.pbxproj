@@ -27,8 +27,6 @@
 		0847983B2882913100A792B2 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 084798392882913100A792B2 /* Game.swift */; };
 		0847983D2882920B00A792B2 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0847983C2882920B00A792B2 /* Team.swift */; };
 		0847983E2882920B00A792B2 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0847983C2882920B00A792B2 /* Team.swift */; };
-		084798402882FAEB00A792B2 /* Scoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0847983F2882FAEB00A792B2 /* Scoring.swift */; };
-		084798412882FAEB00A792B2 /* Scoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0847983F2882FAEB00A792B2 /* Scoring.swift */; };
 		08E21CC728A916AD008BD130 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E21CC628A916AD008BD130 /* GameView.swift */; };
 		08E21CC828A916AD008BD130 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E21CC628A916AD008BD130 /* GameView.swift */; };
 		08E21CCB28AA22C0008BD130 /* ScoreButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E21CCA28AA22C0008BD130 /* ScoreButtons.swift */; };
@@ -72,7 +70,6 @@
 		084798362882908800A792B2 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		084798392882913100A792B2 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		0847983C2882920B00A792B2 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
-		0847983F2882FAEB00A792B2 /* Scoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scoring.swift; sourceTree = "<group>"; };
 		08E21CC628A916AD008BD130 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
 		08E21CCA28AA22C0008BD130 /* ScoreButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreButtons.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -187,7 +184,6 @@
 				084798392882913100A792B2 /* Game.swift */,
 				0847983C2882920B00A792B2 /* Team.swift */,
 				084798362882908800A792B2 /* Icon.swift */,
-				0847983F2882FAEB00A792B2 /* Scoring.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -366,7 +362,6 @@
 				0847981C28828F4300A792B2 /* Point_CounterApp.swift in Sources */,
 				08E21CC728A916AD008BD130 /* GameView.swift in Sources */,
 				0847983428828F8D00A792B2 /* Sport.swift in Sources */,
-				084798402882FAEB00A792B2 /* Scoring.swift in Sources */,
 				084798372882908800A792B2 /* Icon.swift in Sources */,
 				0847982028828F4300A792B2 /* ContentView.swift in Sources */,
 			);
@@ -383,7 +378,6 @@
 				0847981D28828F4300A792B2 /* Point_CounterApp.swift in Sources */,
 				08E21CC828A916AD008BD130 /* GameView.swift in Sources */,
 				0847983528828F9100A792B2 /* Sport.swift in Sources */,
-				084798412882FAEB00A792B2 /* Scoring.swift in Sources */,
 				084798382882908A00A792B2 /* Icon.swift in Sources */,
 				0847982128828F4300A792B2 /* ContentView.swift in Sources */,
 			);
