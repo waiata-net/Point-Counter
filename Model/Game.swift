@@ -14,6 +14,7 @@ class Game: Codable {
     var teamB: Team = Team(name: "Team B")
     var scoreA: Int = 0
     var scoreB: Int = 0
+    var scoring = Scoring()
     
     
     

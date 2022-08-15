@@ -31,6 +31,8 @@
 		084798412882FAEB00A792B2 /* Scoring.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0847983F2882FAEB00A792B2 /* Scoring.swift */; };
 		08E21CC728A916AD008BD130 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E21CC628A916AD008BD130 /* GameView.swift */; };
 		08E21CC828A916AD008BD130 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E21CC628A916AD008BD130 /* GameView.swift */; };
+		08E21CCE28AA2B2D008BD130 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E21CCD28AA2B2D008BD130 /* Score.swift */; };
+		08E21CCF28AA2B2D008BD130 /* Score.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08E21CCD28AA2B2D008BD130 /* Score.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -72,6 +74,7 @@
 		0847983C2882920B00A792B2 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
 		0847983F2882FAEB00A792B2 /* Scoring.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Scoring.swift; sourceTree = "<group>"; };
 		08E21CC628A916AD008BD130 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		08E21CCD28AA2B2D008BD130 /* Score.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Score.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -185,6 +188,7 @@
 				0847983C2882920B00A792B2 /* Team.swift */,
 				084798362882908800A792B2 /* Icon.swift */,
 				0847983F2882FAEB00A792B2 /* Scoring.swift */,
+				08E21CCD28AA2B2D008BD130 /* Score.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -359,6 +363,7 @@
 				0847983A2882913100A792B2 /* Game.swift in Sources */,
 				0847983D2882920B00A792B2 /* Team.swift in Sources */,
 				0847981C28828F4300A792B2 /* Point_CounterApp.swift in Sources */,
+				08E21CCE28AA2B2D008BD130 /* Score.swift in Sources */,
 				08E21CC728A916AD008BD130 /* GameView.swift in Sources */,
 				0847983428828F8D00A792B2 /* Sport.swift in Sources */,
 				084798402882FAEB00A792B2 /* Scoring.swift in Sources */,
@@ -375,6 +380,7 @@
 				0847983B2882913100A792B2 /* Game.swift in Sources */,
 				0847983E2882920B00A792B2 /* Team.swift in Sources */,
 				0847981D28828F4300A792B2 /* Point_CounterApp.swift in Sources */,
+				08E21CCF28AA2B2D008BD130 /* Score.swift in Sources */,
 				08E21CC828A916AD008BD130 /* GameView.swift in Sources */,
 				0847983528828F9100A792B2 /* Sport.swift in Sources */,
 				084798412882FAEB00A792B2 /* Scoring.swift in Sources */,
