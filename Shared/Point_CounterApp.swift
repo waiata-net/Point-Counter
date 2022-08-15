@@ -12,6 +12,7 @@ struct Point_CounterApp: App {
     var body: some Scene {
         DocumentGroup(newDocument: GameDocument()) { file in
             ContentView(document: file.$document)
+                .frame(minWidth: 120, maxWidth: .infinity, minHeight: 80, maxHeight: .infinity)
         }
     }
 }

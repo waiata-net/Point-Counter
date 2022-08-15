@@ -8,10 +8,14 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     @Binding var document: GameDocument
 
+    @State private var showingSettings: Bool = true
+    
     var body: some View {
-        GameView(game: document.game)
+        GameView(game: $document.game)
+          
     }
 }
 

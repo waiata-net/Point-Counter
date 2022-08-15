@@ -27,4 +27,5 @@ struct Scoring: Codable {
         case tally
         case total
     }
+    
 }
