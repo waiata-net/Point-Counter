@@ -28,7 +28,7 @@ struct ScoreButtons: View {
 
 
 struct ScoreButtons_Previews: PreviewProvider {
-    @State static var score = 0
+    @State static var score = 1
     static var previews: some View {
         ScoreButtons(score: $score)
     }

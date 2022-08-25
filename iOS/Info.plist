@@ -11,8 +11,6 @@
 			<array>
 				<string>net.waiata.game</string>
 			</array>
-			<key>NSUbiquitousDocumentUserActivityType</key>
-			<string>$(PRODUCT_BUNDLE_IDENTIFIER).example-document</string>
 		</dict>
 	</array>
 	<key>CFBundleIcons</key>

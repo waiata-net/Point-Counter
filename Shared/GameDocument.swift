@@ -9,14 +9,14 @@ import SwiftUI
 import UniformTypeIdentifiers
 
 extension UTType {
-    static var exampleText: UTType {
+    static var game: UTType {
         UTType(importedAs: "net.waiata.game")
     }
 }
 
 struct GameDocument: FileDocument {
 
-    static var readableContentTypes: [UTType] { [.exampleText] }
+    static var readableContentTypes: [UTType] { [.game] }
     
     var game: Game
     

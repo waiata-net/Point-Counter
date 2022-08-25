@@ -15,13 +15,17 @@ struct GameView: View {
         HStack {
             VStack {
                 Text(game.teamA.name)
+                    .font(.title)
                 Text("\(game.scoreA)")
+                    .font(.system(size: 120, weight: .medium))
                 ScoreButtons(score: $game.scoreA)
             }
             .padding()
             VStack {
                 Text(game.teamB.name)
+                    .font(.title)
                 Text("\(game.scoreB)")
+                    .font(.system(size: 120, weight: .medium))
                 ScoreButtons(score: $game.scoreB)
             }
             .padding()
@@ -29,9 +33,18 @@ struct GameView: View {
     }
 }
 
+
+
+
 struct GameView_Previews: PreviewProvider {
     @State static var game = Game()
     static var previews: some View {
-        GameView(game: $game)
+        Group {
+            GameView(game: $game)
+                .previewInterfaceOrientation(.portrait)
+            GameView(game: $game)
+                .preferredColorScheme(.dark)
+                .previewInterfaceOrientation(.landscapeLeft)
+        }
     }
 }
