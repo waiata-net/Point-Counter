@@ -9,7 +9,7 @@
 			<string>Default</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>net.waiata.game</string>
+				<string>net.waiata.score</string>
 			</array>
 		</dict>
 	</array>
@@ -30,12 +30,12 @@
 			<key>UTTypeIconFiles</key>
 			<array/>
 			<key>UTTypeIdentifier</key>
-			<string>net.waiata.game</string>
+			<string>net.waiata.score</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>
 				<array>
-					<string>game</string>
+					<string>score</string>
 				</array>
 			</dict>
 		</dict>
